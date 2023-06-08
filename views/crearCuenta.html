@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mercado liebre</title>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:wght@300:400;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="https://kit.fontawesome.com/b05beb359a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        
+     <header class="encabezado">
+     <div>
+     
+     <div class="superiorEncabezado">
+        <img src="/imagenes/logo-mercado-liebre.svg" class="logo">
+        <h2 class="textoDelEncabezado">
+             <i class="fa-solid fa-hand-holding-dollar"></i>
+            compra en cuotas y sin tarjeta de credito
+         </h2>
+     </div>
+     <form action="/buscar" method="get" >
+        <input type="text" name="query" placeholder="Buscar productos, marcas y mas..." />
+        <input type="submit" value="Buscar" />
+      </form>
+     
+     <nav class="barras">
+            <ul class="barraizquierda" > 
+           <li><a href="#">Oferta  </a> </li>
+           <li><a href="#">Tienda Oficiales </a> </li>
+           <li><a href="#">Vender </a> </li>
+           <li><a href="#">Ayuda </a> </li>
+           <li><a href="./">volver al inicio </a> </li>
+    </ul>
+    
+      
+    <ul class="barraderecha" >
+    <li><a href="crearCuenta">Crea tu cuenta </a> <i class="fa-solid fa-address-card"></i></li>
+    <li><a href="login"> Ingresá</a> <i class="fa-solid fa-user"></i> </li>
+    <li><a href="#">Mis compra <i class="fa-solid fa-cart-shopping"></i> </a> </li>
+    </ul>
+    </nav>
+      
+    </header>
+
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="/css/register.css" />
+</head>
+<body>
+    <h2>Registro</h2>
+    <form action="/register" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        
+        <label for="confirm-password">Confirmar contraseña:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+        
+        <input type="submit" value="Registrarse">
+    </form>
+</body>
+</html>
